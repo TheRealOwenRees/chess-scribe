@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "lib": ["es5", "es6", "dom"],
+    "target": "es2021",
+    "lib": ["es2021", "dom"],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "baseUrl": "src/",
+    "baseUrl": "./src",
     "typeRoots": ["./src/types", "./node_modules/@types"],
     "resolveJsonModule": true,
     "outDir": "./dist",
@@ -17,8 +17,8 @@
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
   },
   "include": ["./src/**/*.tsx", "./src/**/*.ts"],
-  "exclude": ["node_modules", "test/**/*.ts"]
+  "exclude": ["node_modules", "tests/**/*.ts"]
 }

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97e2a6f9-71ab-4c17-a792-c5d6c5ab88d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/server/src/middleware/pgnUpload.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/pgn.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/tests/routes.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/tests/routes_helper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/pdf.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/pdf.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/utils/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/utils/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/utils/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/utils/logger.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ElmWorkspace">
+    <elmProjects />
+    <settings elmCompilerPath="/usr/local/bin/elm" elmFormatPath="null" elmTestPath="null" isElmFormatOnSaveEnabled="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="11ok02kx" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2UI1WC0nbpN0564IWLMVlzWlCY5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/media/owen/Mint Data/Projects/chess-scribe/server/tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "org.elm.workspace.PROJECT_DISCOVERY": "true",
+    "prettierjs.PrettierConfiguration.Package": "/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/tests" />
+      <recent name="$PROJECT_DIR$/server/src/utils" />
+      <recent name="$PROJECT_DIR$/server/pgn2tex" />
+      <recent name="$PROJECT_DIR$/server/dist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Test the PGN routes">
+    <configuration name="Test the PDF routes" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/server/tests/pdfRoutes.test.ts" />
+      <test-names>
+        <test-name value="Test the PDF routes" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test the PDF routes.GET method returns testing endpoint" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/server/tests/pdfRoutes.test.ts" />
+      <test-names>
+        <test-name value="Test the PDF routes" />
+        <test-name value="GET method returns testing endpoint" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test the PDF routes.POST method returns tex string" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/server/tests/pdfRoutes.test.ts" />
+      <test-names>
+        <test-name value="Test the PDF routes" />
+        <test-name value="POST method returns tex string" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test the PGN routes" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/server/tests/pdfRoutes.test.ts" />
+      <test-names>
+        <test-name value="Test the PGN routes" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test the PGN routes.Upload PGN file" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/server/tests/pdfRoutes.test.ts" />
+      <test-names>
+        <test-name value="Test the PGN routes" />
+        <test-name value="Upload PGN file" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Test the PGN routes" />
+        <item itemvalue="Jest.Test the PGN routes.Upload PGN file" />
+        <item itemvalue="Jest.Test the PDF routes" />
+        <item itemvalue="Jest.Test the PDF routes.POST method returns tex string" />
+        <item itemvalue="Jest.Test the PDF routes.GET method returns testing endpoint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97e2a6f9-71ab-4c17-a792-c5d6c5ab88d1" name="Changes" comment="" />
+      <created>1692612316739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692612316739</updated>
+      <workItem from="1692612320437" duration="5865000" />
+      <workItem from="1692618215846" duration="1444000" />
+      <workItem from="1692777500492" duration="13387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
