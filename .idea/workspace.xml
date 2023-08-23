@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97e2a6f9-71ab-4c17-a792-c5d6c5ab88d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/middleware/pgnUpload.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/pgn.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/tests/routes.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/tests/routes_helper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes/pdf.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/pdf.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/utils/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/utils/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/utils/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/utils/logger.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/hooks/tailwind.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/i18n.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/utils/logger.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/css/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/[lang]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/[lang]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,43 +47,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/media/owen/Mint Data/Projects/chess-scribe/server/tests",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/jest",
-    "nodejs_package_manager_path": "npm",
-    "org.elm.workspace.PROJECT_DISCOVERY": "true",
-    "prettierjs.PrettierConfiguration.Package": "/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/owen/Mint Data/Projects/chess-scribe/hooks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.elm.workspace.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hooks" />
+      <recent name="$PROJECT_DIR$/client/utils" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/server/tests" />
-      <recent name="$PROJECT_DIR$/server/src/utils" />
-      <recent name="$PROJECT_DIR$/server/pgn2tex" />
-      <recent name="$PROJECT_DIR$/server/dist" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/client/css" />
+      <recent name="$PROJECT_DIR$/client/app" />
+      <recent name="$PROJECT_DIR$/client/app/[lang]" />
       <recent name="$PROJECT_DIR$/server/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Test the PGN routes">
+  <component name="RunManager" selected="Jest.Test the PGN routes (1)">
+    <configuration name="Test the PDF routes (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/server/tests/routes.test.ts" />
+      <test-names>
+        <test-name value="Test the PDF routes" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Test the PDF routes" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
@@ -96,29 +113,15 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Test the PDF routes.GET method returns testing endpoint" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Test the PGN routes (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/server" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/server/tests/pdfRoutes.test.ts" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/server/tests/routes.test.ts" />
       <test-names>
-        <test-name value="Test the PDF routes" />
-        <test-name value="GET method returns testing endpoint" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Test the PDF routes.POST method returns tex string" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/server" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/server/tests/pdfRoutes.test.ts" />
-      <test-names>
-        <test-name value="Test the PDF routes" />
-        <test-name value="POST method returns tex string" />
+        <test-name value="Test the PGN routes" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -149,15 +152,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Test the PGN routes (1)" />
+        <item itemvalue="Jest.Test the PDF routes (1)" />
         <item itemvalue="Jest.Test the PGN routes" />
         <item itemvalue="Jest.Test the PGN routes.Upload PGN file" />
         <item itemvalue="Jest.Test the PDF routes" />
-        <item itemvalue="Jest.Test the PDF routes.POST method returns tex string" />
-        <item itemvalue="Jest.Test the PDF routes.GET method returns testing endpoint" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="97e2a6f9-71ab-4c17-a792-c5d6c5ab88d1" name="Changes" comment="" />
@@ -167,7 +173,8 @@
       <updated>1692612316739</updated>
       <workItem from="1692612320437" duration="5865000" />
       <workItem from="1692618215846" duration="1444000" />
-      <workItem from="1692777500492" duration="13387000" />
+      <workItem from="1692777500492" duration="15810000" />
+      <workItem from="1692819687517" duration="127000" />
     </task>
     <servers />
   </component>
