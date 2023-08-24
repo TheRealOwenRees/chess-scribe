@@ -6,6 +6,8 @@ import { ReactNode } from "react";
 
 import "@/css/globals.css";
 
+import Navbar from "./components/Navbar";
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const title = Inter({
   subsets: ["latin"],
@@ -51,8 +53,8 @@ export default async function RootLayout({
     <html lang={locale} className={`${inter.variable} ${title.variable}`}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <div className="bg-white font-sans leading-normal tracking-normal">
-            {/*Navbar*/}
+          <div className="grid bg-white font-sans leading-normal tracking-normal">
+            <Navbar />
             <div className="relative min-h-screen">{children}</div>
             {/*Footer*/}
           </div>

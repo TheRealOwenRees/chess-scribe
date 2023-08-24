@@ -6,8 +6,20 @@
   },
 
   "Home": {
-    "title": "ChessScribe",
+    "headerTitle": "ChessScribe",
     "subTitle": "A PGN to PDF Convertor",
-    "description": "Turn Your Chess PGN into a Publishable PDF"
+    "description": "Turn Your Chess PGN into a Publishable PDF",
+    "getStartedButton": " Get Started",
+    "mainTitle": "Create PDFs Of Your Chess Games",
+    "mainSubTitle": "PDFs for free, forever",
+    "mainSubDescription1": "Generate a PDF of your analysed chess game, in a format that looks much like those seen in chess books.",
+    "mainSubDescription2": "These PDFs are perfect to use as a means to distribute educational material, or simply to archive your analysis in a publishable format."
+  },
+
+  "Nav": {
+    "title": "ChessScribe",
+    "contact": "Contact",
+    "about": "About",
+    "chessboard": "Chessboard"
   }
 }
