@@ -1,1 +1,1 @@
-# chess-scribe
+# ChessScribe

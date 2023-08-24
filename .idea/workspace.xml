@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97e2a6f9-71ab-4c17-a792-c5d6c5ab88d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/global.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/hooks/tailwind.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/i18n.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/utils/logger.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/css/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/[lang]/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/[lang]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/[lang]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/[lang]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/[lang]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/[lang]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/css/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/css/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/global.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/hooks/tailwind.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/hooks/tailwind.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/utils/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/utils/logger.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="development" />
+                    <option name="lastUsedInstant" value="1692819853" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1692819852" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="11ok02kx" />
@@ -54,9 +79,9 @@
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/owen/Mint Data/Projects/chess-scribe/hooks&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/owen/Mint Data/Projects/chess-scribe/client/public/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -66,19 +91,19 @@
     &quot;nodejs.jest.jest_package&quot;: &quot;/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/jest&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;org.elm.workspace.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/prettier&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/media/owen/Mint Data/Projects/chess-scribe/client/node_modules/prettier&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/media/owen/Mint Data/Projects/chess-scribe/client/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/images" />
       <recent name="$PROJECT_DIR$/hooks" />
       <recent name="$PROJECT_DIR$/client/utils" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/client" />
-      <recent name="$PROJECT_DIR$/server/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client" />
@@ -174,7 +199,10 @@
       <workItem from="1692612320437" duration="5865000" />
       <workItem from="1692618215846" duration="1444000" />
       <workItem from="1692777500492" duration="15810000" />
-      <workItem from="1692819687517" duration="127000" />
+      <workItem from="1692819687517" duration="3860000" />
+      <workItem from="1692860920958" duration="3631000" />
+      <workItem from="1692898927555" duration="4024000" />
+      <workItem from="1692902965552" duration="837000" />
     </task>
     <servers />
   </component>

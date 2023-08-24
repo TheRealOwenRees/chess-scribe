@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const title = Inter({
   subsets: ["latin"],
   weight: "600",
-  variable: "--font-inter",
+  variable: "--font-title",
 });
 
 export async function generateMetadata({
@@ -53,7 +53,7 @@ export default async function RootLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="bg-white font-sans leading-normal tracking-normal">
             {/*Navbar*/}
-            <div className="relative">{children}</div>
+            <div className="relative min-h-screen">{children}</div>
             {/*Footer*/}
           </div>
         </NextIntlClientProvider>
