@@ -1,0 +1,13 @@
+{
+  "Metadata": {
+    "title": "ChessScribe",
+    "description": "Turn Your Chess PGN into a Publishable PDF",
+    "keywords": "chess, PDF, PGN, game"
+  },
+
+  "Home": {
+    "title": "ChessScribe",
+    "subTitle": "A PGN to PDF Convertor",
+    "description": "Turn Your Chess PGN into a Publishable PDF"
+  }
+}
