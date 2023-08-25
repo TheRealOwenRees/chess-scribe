@@ -2,10 +2,17 @@ import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
+import "@/css/example-pdfs.css";
+
 import bgImage from "@/public/images/header-bg.jpg";
+import pdf1 from "@/public/images/examplepdf1.webp";
+import pdf2 from "@/public/images/examplepdf2.webp";
 
 export default function Home() {
   const t = useTranslations("Home");
+
+  const button =
+    "rounded-3xl bg-white px-8 py-4 text-center text-xl font-bold tracking-widest text-black hover:bg-teal-600 hover:text-white";
 
   return (
     <>
@@ -27,25 +34,31 @@ export default function Home() {
           </h2>
           <h3 className="text-lg tracking-wide">{t("description")}</h3>
           <div className="mt-10">
-            <Link
-              href="/chessboard"
-              className="rounded-lg bg-white px-8 py-4 text-center text-xl font-bold tracking-widest text-black hover:bg-teal-600 hover:text-white"
-            >
+            <Link href="/chessboard" className={button}>
               {t("getStartedButton")}
             </Link>
           </div>
         </div>
       </header>
-      <main className="relative grid h-2/3 justify-center bg-white text-center text-black">
-        <h2 className="mt-10 text-4xl font-bold">{t("mainTitle")}</h2>
-        <div className="grid grid-cols-2">
-          <div className="">
-            <h3>{t("mainSubTitle")}</h3>
-            <p>{t("mainSubDescription1")}</p>
+      <main className="relative grid h-min bg-white text-center text-black">
+        <h2 className="mb-16 mt-10 text-4xl font-bold">{t("mainTitle")}</h2>
+        <div className="grid grid-cols-2 items-center justify-items-center">
+          <div className="w-4/5">
+            <h3 className="mb-8 font-title text-2xl">{t("mainSubTitle")}</h3>
+            <p className="mb-6">{t("mainSubDescription1")}</p>
             <p>{t("mainSubDescription2")}</p>
+            <div className="mt-10">
+              <Link
+                href="/chessboard"
+                className={`${button} border-2 border-black hover:border-teal-600`}
+              >
+                {t("getStartedButton")}
+              </Link>
+            </div>
           </div>
-          <div className="">
-            <p>images here</p>
+          <div className="example-pdfs">
+            <Image src={pdf2} alt="chess pdf" />
+            <Image src={pdf1} alt="chess pdf" />
           </div>
         </div>
       </main>

@@ -7,6 +7,7 @@ import { ReactNode } from "react";
 import "@/css/globals.css";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const title = Inter({
@@ -56,7 +57,7 @@ export default async function RootLayout({
           <div className="grid bg-white font-sans leading-normal tracking-normal">
             <Navbar />
             <div className="relative min-h-screen">{children}</div>
-            {/*Footer*/}
+            <Footer />
           </div>
         </NextIntlClientProvider>
       </body>

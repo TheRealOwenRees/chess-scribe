@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97e2a6f9-71ab-4c17-a792-c5d6c5ab88d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/app/[lang]/components/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/app/[lang]/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/app/[lang]/chessboard/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/app/[lang]/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/app/[lang]/contact/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/css/example-pdfs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/app/[lang]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/[lang]/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/app/[lang]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/[lang]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/css/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/css/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +86,9 @@
     "nodejs.jest.jest_package": "/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/jest",
     "nodejs_package_manager_path": "npm",
     "org.elm.workspace.PROJECT_DISCOVERY": "true",
-    "prettierjs.PrettierConfiguration.Package": "/media/owen/Mint Data/Projects/chess-scribe/client/node_modules/prettier",
+    "prettierjs.PrettierConfiguration.Package": "/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/media/owen/Mint Data/Projects/chess-scribe/client/node_modules/typescript/lib",
+    "ts.external.directory.path": "/media/owen/Mint Data/Projects/chess-scribe/server/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -193,7 +197,8 @@
       <workItem from="1692819687517" duration="3860000" />
       <workItem from="1692860920958" duration="3631000" />
       <workItem from="1692898927555" duration="4024000" />
-      <workItem from="1692902965552" duration="8635000" />
+      <workItem from="1692902965552" duration="8716000" />
+      <workItem from="1692946176868" duration="4849000" />
     </task>
     <servers />
   </component>
