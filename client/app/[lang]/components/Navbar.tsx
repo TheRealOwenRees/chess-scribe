@@ -22,15 +22,15 @@ export default function Navbar() {
   ));
 
   return (
-    <nav className="absolute top-5 z-10 flex w-11/12 items-center justify-self-center rounded-[33px] bg-white px-[3%] py-2 font-bold text-black">
+    <nav className="absolute top-5 z-10 flex w-11/12 items-center justify-self-center rounded-[33px] bg-white px-[3%] py-2 text-lg font-bold text-black">
       <div>
         <Link href="/">
           <Image src={logo} alt="logo" />
         </Link>
       </div>
 
-      <div className="flex flex-grow justify-center">
-        <ul className="flex space-x-8">{navItems}</ul>
+      <div className="ml-8 mr-24 flex flex-grow justify-end">
+        <ul className="flex space-x-16">{navItems}</ul>
       </div>
     </nav>
   );

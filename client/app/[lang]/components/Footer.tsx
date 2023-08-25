@@ -1,5 +1,3 @@
-import Link from "next-intl/link";
-
 export default function Footer() {
   return (
     <>
