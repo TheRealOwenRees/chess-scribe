@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-import "@/css/example-pdfs.css";
+import "@/scss/main.scss";
 
 import bgImage from "@/public/images/header-bg.jpg";
 import pdf1 from "@/public/images/examplepdf1.webp";

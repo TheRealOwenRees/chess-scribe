@@ -21,5 +21,9 @@
     "contact": "Contact",
     "about": "About",
     "chessboard": "Chessboard"
+  },
+
+  "Chessboard": {
+    "title": "PGN to PDF Conversion"
   }
 }
