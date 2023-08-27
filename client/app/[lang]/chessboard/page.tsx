@@ -7,9 +7,9 @@ export default function Chessboard() {
 
   return (
     <>
-      <main className="relative grid min-h-screen justify-items-center text-black">
-        <div className="mb-4 mt-32">
-          <h2 className="font-title text-3xl">{t("title")}</h2>
+      <main className="grid place-items-center bg-white pb-20 dark:bg-gray-800 mt-32">
+        <div className="max-w-5xl px-4 py-8 lg:py-16">
+          <h2 className="text-center text-4xl font-title tracking-tight text-gray-900 dark:text-white">{t("title")}</h2>
         </div>
         <div className="max-w-screen-md p-5">
           <Board>{pgn1}</Board>

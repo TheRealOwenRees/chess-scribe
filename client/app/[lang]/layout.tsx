@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const title = Inter({
   subsets: ["latin"],
-  weight: "600",
+  weight: "800",
   variable: "--font-title",
 });
 

@@ -22,7 +22,7 @@ export default function Navbar() {
   ));
 
   return (
-    <nav className="absolute top-5 z-10 flex w-11/12 items-center justify-self-center rounded-[33px] bg-white px-[3%] py-2 text-lg font-bold text-black">
+    <nav className="absolute border-[1px] border-black top-5 z-10 flex w-11/12 items-center justify-self-center rounded-[33px] bg-white px-[3%] py-2 text-lg font-bold text-black">
       <div>
         <Link href="/">
           <Image src={logo} alt="logo" />
