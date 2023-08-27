@@ -1,20 +1,3 @@
-//$lpv-site-hue: 37;
-//$lpv-accent: hsl(88, 62%, 37%);
-//$lpv-accent-over: white;
-//$lpv-bg: hsl($lpv-site-hue, 42%, 25%);
-//$lpv-bg-player: $lpv-bg;
-//$lpv-bg-controls: $lpv-bg;
-//$lpv-bg-movelist: $lpv-bg;
-//$lpv-bg-variation: hsl($lpv-site-hue, 5%, 15%);
-//$lpv-bg-pane: mix($lpv-accent, $lpv-bg, 15%);
-//$lpv-font: #aaa !default;
-//$lpv-font-shy: mix($lpv-font, $lpv-bg, 50%);
-//$lpv-font-accent: mix($lpv-accent, #fff, 50%);
-//$lpv-border: hsl(0, 0%, 25%);
-///* move highlights */
-//$lpv-inaccuracy: hsl(202, 78%, 62%);
-//$lpv-mistake: hsl(41, 100%, 45%);
-//$lpv-blunder: hsl(0, 69%, 60%);
-//$lpv-good-move: hsl(130, 67%, 62%);
-//$lpv-brilliant: hsl(129, 71%, 45%);
-//$lpv-interesting: hsl(307, 80%, 70%);
+.lpv {
+  background-color: hsl(37, 34%, 65%);
+}
